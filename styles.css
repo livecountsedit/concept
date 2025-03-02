@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+    background-color: #1a1a20;
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    color: #FFF;
+}
+
+a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+h1 {
+    background-color: #141414;
+    border: solid #FFF;
+    font-size: 2vw;
+}
+
+.options {
+    width: 100%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+button {
+    font-size: 2vw;
+    margin: 0.3em;
+    margin-left: 1em;
+    margin-right: 1em;
+    cursor: pointer;
+}
+
+.title {
+   font-size: 4vw; 
+}
+
+.reset {
+    width: fit-content;
+    background-color: red;
+    color: white;
+}
